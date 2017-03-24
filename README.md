@@ -1,5 +1,20 @@
 # RangeOperation
-union, difference、intersection of  range
+Union, Difference, Intersection of  range.
+
+i.	Range is no reducible and form of a range is as follow:
+	1,2_3,4  means [1,2] U [3,4]
+
+ii.	Only consider only closed interval or open interval.
+
+iii.Exclude one point like [1,1].
+
+iv.	Infact, one point doesn't report an error but make mathematic mistake.
+
+v.	Just for fun, so don't be too rigorous.
+
+vi.	Original purpose is to manage time bucket using timestamp.
+
+vii.Description of the function:
 
 * range_intersection
 	*
